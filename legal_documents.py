@@ -1,9 +1,3 @@
-"""
-legal_documents.py
-Redesigned generators for affidavits, name-change affidavits, wills, powers of attorney,
-vakalatnama and tenancy leases. Each function takes explicit parameters for formerly blank fields.
-"""
-
 from typing import List, Optional
 
 def generate_affidavit(
